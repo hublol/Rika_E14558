@@ -27,7 +27,7 @@ But it looked like the changes occurred at regular time intervals (10 or 60 seco
 and that the temperature always ended up stabilizing on specific values, separated by intervals of 0.5°C.
 
 The whole behavior was very suspicious.
-Something that was immediately confirmed when I remove the batteries after triggering a temperature change:
+Something that was immediately confirmed when I removed the batteries after triggering a temperature change:
 on the stove, the temperature displayed continued to increase by steps of 0.1°C... until the stove eventually reported the loss of communication!
 
 In other words: the stove is somehow cheating to simulate 0.1°C steps, when the sensor is in fact most likely sending something completely different...
