@@ -98,7 +98,7 @@ The result is then rounded to the nearest 0.1°C.
 Note that 16384 in the formula is the 0°C offset. <br/>
 If the sensor sends a value lower you get a negative temperature. For example, 16221 would be -1.3°C.
 
-Here are some samples packets capture in URH:
+Here are some samples packets captured in URH:
 ![Packet format](images/sample_packets.png)
 
 For the one highlighted, the value displayed on my stove would be:
